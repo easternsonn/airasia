@@ -40,3 +40,11 @@ a {
     color: inherit;
 }
 
+.title {
+    margin-top: 245px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+}
+

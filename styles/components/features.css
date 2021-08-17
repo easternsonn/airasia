@@ -1,66 +1,96 @@
 .features {
-    margin-bottom: 13px;
-}
-
-.features__subtitle {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 22px;
-    margin-top: 246px;
-    margin-left: 2px;
+    color: #000000;
 }
 
 .features__item {
-    min-height: 362px;
-    background: #FFFFFF;
-    border-radius: 4px;
+    width: 362px;
+    border-radius: 5px 5px 0px 0px;
+    min-height: 450px;
+    overflow: hidden;
+    background-color: #fff;
     display: inline-block;
-    margin-right: 24px;
-    width: 361px;
-    color: #000000
+    margin-right: 22px;
 }
 
 .features__item:last-child {
     margin-right: 0;
 }
 
-.features__img {
-    min-height: 144px;
-    margin-bottom: 33px;
-    position: relative;
+.features__subtitle::after {
+    content: url(../../img/flame.png);
+    margin-left: 12px;
 }
 
 .features__img {
-    position: absolute;
+    height: 144px;
+    margin-bottom: 33px;
+}
+
+.picture__features {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .features__title {
-    padding: 36px 30px;;
-    font-weight: bold;
+    padding-left: 22px;
+    padding-right: 15px;
     font-size: 24px;
-    margin-bottom: 30px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.features__option {
+    margin-bottom: 23px;
+    margin-left: 28px;
+}
+
+.features__option-img {
+    margin-right: 10px;
 }
 
 .features__option-item {
     display: inline-block;
-    vertical-align: top;
-    width: 100px;
-    margin-right: 30px;
+    margin-right: 28px;
 }
 
 .features__option-item:last-child {
     margin-right: 0;
 }
 
-features__option-text {
-    font-size: 14px;
+.features__option-text {
+    color: #666;
+    position: relative;
+    top: -6px;
 }
 
-.features__discription {
-    margin-bottom: 50px;
+.features__text {
+    margin-left: 22px;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    color: #303030;
+    margin-bottom: 24px;
 }
 
 .features__button {
-    text-align: center;
+    margin-left: 24px;
+    border: 1px solid #F5170E;
+    box-sizing: border-box;
+    border-radius: 35px;
+    padding: 18px 30px;
+    background: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #F5170E;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.features__button:hover {
+    background-color: #F5170E;
+    color: #fff;
 }
 
