@@ -1,0 +1,18 @@
+.socials__link {
+    margin-top: 100px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.socials__item {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}

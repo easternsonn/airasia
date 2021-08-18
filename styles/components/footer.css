@@ -1,0 +1,16 @@
+.footer {
+    top: 77px;
+    height: 146px;
+    position: relative;
+}
+
+.contacts__workhours--footer {
+    color: #9A9A9A;
+    font-size: 11px;
+}
+
+.socials {
+    position: absolute;
+    top: -62px;
+    right: 300px;
+}

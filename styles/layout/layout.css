@@ -8,6 +8,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.main-page-wrapper {
+    background: url(../../img/elep.png) center top no-repeat, url(../../img/mount.png) right bottom 165px no-repeat;
+}
+
 .wrapper {
     margin: 0 auto;
     width: 1140px;
@@ -46,5 +50,21 @@ a {
     color: #fff;
     font-size: 36px;
     font-weight: 700;
+}
+
+.button {
+    background: #F5170E;
+    border: 1px solid #F5170E;
+    border-radius: 40px;
+    padding: 18px 39px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    display: inline-block;
+    cursor: pointer
 }
 
