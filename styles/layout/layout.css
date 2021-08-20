@@ -12,9 +12,17 @@ body {
     background: url(../../img/elep.png) center top no-repeat, url(../../img/mount.png) right bottom 165px no-repeat;
 }
 
-.wrapper {
+.container {
     margin: 0 auto;
-    width: 1140px;
+    max-width: 1140px;
+}
+
+.main-content__features {
+    margin-bottom: 200px;
+}
+
+.main-content__news {
+    margin-bottom: 200px;
 }
 
 ul {
@@ -45,11 +53,10 @@ a {
 }
 
 .title {
-    margin-top: 245px;
-    margin-bottom: 50px;
     color: #fff;
     font-size: 36px;
     font-weight: 700;
+    margin-bottom: 50px;
 }
 
 .button {

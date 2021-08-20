@@ -2,14 +2,18 @@
     color: #000000;
 }
 
+.features__discription {
+    padding: 30px 22px;
+}
+
 .features__item {
     width: 362px;
     border-radius: 5px 5px 0px 0px;
-    min-height: 450px;
     overflow: hidden;
     background-color: #fff;
     display: inline-block;
     margin-right: 22px;
+    vertical-align: top;
 }
 
 .features__item:last-child {
@@ -17,13 +21,14 @@
 }
 
 .features__subtitle::after {
-    content: url(../../img/flame.png);
+    background-image: url(../../img/flame.png);
     margin-left: 12px;
+    width: 21px;
+    height: 28px;
 }
 
 .features__img {
     height: 144px;
-    margin-bottom: 33px;
 }
 
 .picture__features {
@@ -33,8 +38,6 @@
 }
 
 .features__title {
-    padding-left: 22px;
-    padding-right: 15px;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 22px;
@@ -42,7 +45,6 @@
 
 .features__option {
     margin-bottom: 23px;
-    margin-left: 28px;
 }
 
 .features__option-img {
@@ -65,7 +67,6 @@
 }
 
 .features__text {
-    margin-left: 22px;
     font-size: 14px;
     line-height: 21px;
     align-items: center;
@@ -74,19 +75,10 @@
 }
 
 .features__button {
-    margin-left: 24px;
-    border: 1px solid #F5170E;
-    box-sizing: border-box;
-    border-radius: 35px;
     padding: 18px 30px;
     background: #fff;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    text-transform: uppercase;
     color: #F5170E;
-    cursor: pointer;
-    transition: .3s;
+    transition: .3;
 }
 
 .features__button:hover {
