@@ -1,6 +1,7 @@
 .footer {
-    top: 77px;
-    height: 146px;
+    border-top: 1px solid #FFFFFF;
+    top: 50px;
+    height: 152px;
     position: relative;
 }
 
@@ -11,7 +12,46 @@
 
 .socials {
     position: absolute;
-    right: 300px;
+    right: 250px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.socials__item--icon--tg .socials__link {
+    background-image: url(../../img/socials/tg.png);
+}
+
+.socials__item--icon--tg .socials__link:hover {
+    background-image: url(../../img/socials/tg1.png);
+}
+
+.socials__item--icon--vk .socials__link {
+    background-image: url(../../img/socials/vk.png);
+}
+
+.socials__item--icon--vk .socials__link:hover {
+    background-image: url(../../img/socials/vk1.png);
+}
+
+.socials__item--icon--fb .socials__link {
+    background-image: url(../../img/socials/fb.png);
+}
+
+.socials__item--icon--fb .socials__link:hover {
+    background-image: url(../../img/socials/fb1.png);
+}
+
+.socials__item--icon--in .socials__link {
+    background-image: url(../../img/socials/in.png);
+}
+
+.socials__item--icon--in .socials__link:hover {
+    background-image: url(../../img/socials/in1.png);
 }

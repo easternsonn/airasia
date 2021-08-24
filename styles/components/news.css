@@ -1,5 +1,5 @@
 .news__list {
-    margin-bottom: 58px;
+    margin-bottom: 53px;
 }
 
 .news__item {
@@ -29,7 +29,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 25px 30px;
+    padding: 20px 30px;
     min-height: 160px;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .paginator__display {
-    margin-right: 25px;
+    margin-right: 40px;
 }
 
 .paginator__item--active .paginator__link {

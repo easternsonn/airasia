@@ -18,12 +18,14 @@ body {
 }
 
 .main-content__features {
-    margin-bottom: 200px;
+    margin-bottom: 120px;
 }
 
 .main-content__news {
-    margin-bottom: 200px;
+    margin-bottom: 140px;
 }
+
+
 
 ul {
     padding: 0;
