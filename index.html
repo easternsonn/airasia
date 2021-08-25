@@ -14,26 +14,30 @@
 <body>
     <div class="wrapper main-page-wrapper">
         <header class="header container">
-            <a href="/" class="logo">
-                <img src="./img/logo.png" alt="logo-pic">
-            </a>
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">Главная</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">Услуги</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">Отзывы</a>
-                    </li>
-                </ul>
-            </nav>
-            <address class="contacts">
-                <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                <div class="contacts__workhours">График работы</div>
-            </address>
+            <div class="header__col">
+                <a href="/" class="logo">
+                    <img src="./img/logo.png" alt="logo-pic">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__col header__col--align--right">
+                <address class="contacts">
+                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                    <div class="contacts__workhours">График работы</div>
+                </address>
+            </div>
         </header>
         <main class="main-content container">
             <section class="route">
@@ -184,6 +188,7 @@
             </section>
         </main>
         <footer class="footer container">
+            <div class="footer__col">
                 <a href="/" class="logo">
                     <img src="./img/logo.png" alt="logo-pic">
                 </a>
@@ -200,6 +205,8 @@
                         </li>
                     </ul>
                 </nav>
+            </div>
+            <div class="footer__col footer__col--align--right">
                 <div class="socials">
                     <ul class="socials__list">
                         <li class="socials__item socials__item--icon--tg">
@@ -220,6 +227,7 @@
                     <div class="contacts__workhours--footer">Бесплатный звонок по России</div>
                     <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
                 </address>
+            </div>
         </footer>
     </div>
 </body>

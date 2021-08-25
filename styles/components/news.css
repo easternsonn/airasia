@@ -1,15 +1,16 @@
 .news__list {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 53px;
 }
 
 .news__item {
-    width: 557px;
-    display: inline-block;
+    flex: 1;
     vertical-align: top;
     position: relative;
     border-radius: 5px;
     overflow: hidden;
-    margin-right: 20px;
+    margin-right: 2%;
 }
 
 .news__item:last-child {
@@ -45,21 +46,27 @@
 }
 
 .paginator {
-    text-align: center;
-}
-
-.paginator__display, .paginator__list, .paginator__item {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .paginator__display {
     margin-right: 40px;
 }
 
+.paginator__list {
+    display: flex;
+    align-items: center;
+}
+
+.paginator__item {
+    text-align: center;
+}
+
 .paginator__item--active .paginator__link {
-    background: #fff;
-    background-color: #F5170E;
+    background-color: #fff ;
+    color: #F5170E;
 }
 
 .paginator__link {

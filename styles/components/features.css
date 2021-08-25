@@ -2,17 +2,23 @@
     color: #000000;
 }
 
-.features__discription {
-    padding: 30px 22px;
+.features__subtitle:after {
+    content: url(../../img/flame.png);
+    margin-left: 12px;
+    width: 21px;
+    height: 28px;
+}
+
+.features__list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .features__item {
-    width: 362px;
+    width: calc(100% / 3 - 18px);
     border-radius: 5px 5px 0px 0px;
     overflow: hidden;
     background-color: #fff;
-    display: inline-block;
-    margin-right: 22px;
     vertical-align: top;
 }
 
@@ -20,11 +26,8 @@
     margin-right: 0;
 }
 
-.features__subtitle::after {
-    background-image: url(../../img/flame.png);
-    margin-left: 12px;
-    width: 21px;
-    height: 28px;
+.features__discription {
+    padding: 30px 22px;
 }
 
 .features__img {
@@ -44,6 +47,7 @@
 }
 
 .features__option {
+    display: flex;
     margin-bottom: 23px;
 }
 
@@ -52,7 +56,6 @@
 }
 
 .features__option-item {
-    display: inline-block;
     margin-right: 28px;
 }
 
