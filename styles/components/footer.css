@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid rgb(255 255 255 / 10%);
-    top: 50px;
-    height: 152px;
+    top: 56px;
+    min-height: 137px;
     position: relative;
 }
 
@@ -23,10 +23,7 @@
 }
 
 .socials {
-    position: absolute;
-    right: 250px;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-right: 40px;
 }
 
 .socials__link {

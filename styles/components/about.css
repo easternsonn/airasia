@@ -2,6 +2,8 @@
     position: relative;
     text-align: right;
     padding-top: 100px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .about::before {
