@@ -8,6 +8,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.services {
+    background: #fff url(../../img/headline.png) center top no-repeat;
+}
+
 .main-page-wrapper {
     background: url(../../img/elep.png) center top no-repeat, url(../../img/mount.png) right bottom 165px no-repeat;
 }
@@ -17,12 +21,34 @@ body {
     max-width: 1140px;
 }
 
+.container--services {
+    margin: 0 auto;
+    max-width: 1140px;
+    background: #001821;
+}
+
 .main-content__features {
     margin-bottom: 120px;
 }
 
 .main-content__news {
     margin-bottom: 140px;
+}
+
+.features--serv {
+    margin-bottom: 45px;
+}
+
+.features--services {
+    margin-bottom: 58px;
+}
+
+.paginator--serv {
+    margin-bottom: 85px;
+}
+
+.partners-serv {
+    margin-bottom: 50px;
 }
 
 ul {

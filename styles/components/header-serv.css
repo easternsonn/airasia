@@ -1,0 +1,34 @@
+.route-services {
+    padding: 90px 0 76px;
+}
+
+.breadcrumb-services {
+    display: flex;
+    color: #9A9A9A;
+    margin-bottom: 120px;
+}
+
+ul.breadcrumb {
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+}
+
+ul.breadcrumb li+li:before {
+    color: #9A9A9A;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #9A9A9A;
+    text-decoration: underline;
+}
+
+ul.breadcrumb li a:hover {
+    color: #9A9A9A;
+    text-decoration: underline;
+}
+
