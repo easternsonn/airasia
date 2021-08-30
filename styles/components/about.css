@@ -4,6 +4,7 @@
     padding-top: 100px;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 56px;
 }
 
 .about::before {

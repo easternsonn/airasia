@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper wrapper__page__inner">
         <section class="section rewiews">
             <div class="container">
                 <header class="header">
@@ -29,7 +29,7 @@
                                     <a href="./services.html" class="menu__link">Услуги</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#" class="menu__link">Отзывы</a>
+                                    <a href="./reviews.html" class="menu__link">Отзывы</a>
                                 </li>
                             </ul>
                         </nav>
@@ -73,7 +73,7 @@
                                             Иван Петрович
                                             <img src="./img/vk-blue.png" alt="vk" class="card__social-logo">
                                         </a>
-                                        <p class="card__direction">Водопад Янг-бей</p>
+                                        <p class="card__direction tag">Водопад Янг-бей</p>
                                     </div>
                                 </div>
                                 <div class="card__description">
@@ -97,10 +97,10 @@
                                     </div>
                                     <div class="card__name">
                                         <a href="#" class="card__name-link">
-                                            Иван Петрович
+                                            Лиза Сидорова
                                             <img src="./img/vk-blue.png" alt="vk" class="card__social-logo">
                                         </a>
-                                        <p class="card__direction">Тур по Тайланду</p>
+                                        <p class="card__direction tag">Тур по Тайланду</p>
                                     </div>
                                 </div>
                                 <div class="card__description">
@@ -129,7 +129,7 @@
                                             Екатерина Жмых
                                             <img src="./img/vk-blue.png" alt="vk" class="card__social-logo">
                                         </a>
-                                        <p class="card__direction">Тур на Остров обезьян</p>
+                                        <p class="card__direction tag">Тур на Остров обезьян</p>
                                     </div>
                                 </div>
                                 <div class="card__description">
@@ -154,10 +154,10 @@
                                     </div>
                                     <div class="card__name">
                                         <a href="#" class="card__name-link">
-                                            Иван Петрович
+                                            Антон Игоревич
                                             <img src="./img/vk-blue.png" alt="vk" class="card__social-logo">
                                         </a>
-                                        <p class="card__direction">Тур по Индонезии</p>
+                                        <p class="card__direction tag">Тур по Индонезии</p>
                                     </div>
                                 </div>
                                 <div class="card__description">
@@ -278,46 +278,48 @@
                 </form>
             </div>
         </section>
-        <footer class="footer container">
-            <div class="footer__col">
-                <a href="/" class="logo">
-                    <img src="./img/logo.png" alt="logo-pic">
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Главная</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Услуги</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Отзывы</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="footer__col footer__col--align--right">
-                <div class="socials">
-                    <ul class="socials__list">
-                        <li class="socials__item socials__item--icon--tg">
-                            <a href="#" class="socials__link"></a>
-                        </li>
-                        <li class="socials__item socials__item--icon--vk">
-                            <a href="#" class="socials__link"></a>
-                        </li>
-                        <li class="socials__item socials__item--icon--fb">
-                            <a href="#" class="socials__link"></a>
-                        </li>
-                        <li class="socials__item socials__item--icon--in">
-                            <a href="#" class="socials__link"></a>
-                        </li>
-                    </ul>
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__col">
+                    <a href="/" class="logo">
+                        <img src="./img/logo.png" alt="logo-pic">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="./index.html" class="menu__link">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="./services.html" class="menu__link">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="./reviews.html" class="menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <address class="contacts">
-                    <div class="contacts__workhours--footer">Бесплатный звонок по России</div>
-                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                </address>
+                <div class="footer__col footer__col--align--right">
+                    <div class="socials">
+                        <ul class="socials__list">
+                            <li class="socials__item socials__item--icon--tg">
+                                <a href="#" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--icon--vk">
+                                <a href="#" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--icon--fb">
+                                <a href="#" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--icon--in">
+                                <a href="#" class="socials__link"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <address class="contacts">
+                        <div class="contacts__workhours--footer">Бесплатный звонок по России</div>
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                    </address>
+                </div>
             </div>
         </footer>
     </div>

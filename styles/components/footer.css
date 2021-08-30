@@ -1,11 +1,5 @@
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid rgb(255 255 255 / 10%);
-    top: 56px;
-    min-height: 137px;
-    position: relative;
+    background: #001821;
 }
 
 .footer__col {

@@ -8,10 +8,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.services {
-    background: #fff url(../../img/headline.png) center top no-repeat;
-}
-
 .main-page-wrapper {
     background: url(../../img/elep.png) center top no-repeat, url(../../img/mount.png) right bottom 165px no-repeat;
 }
@@ -19,6 +15,18 @@ body {
 .container {
     margin: 0 auto;
     max-width: 1140px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(255 255 255 / 10%);
+    min-height: 137px;
+}
+
+.services {
+    background: #fff url(../../img/headline.png) center top no-repeat;
 }
 
 .container--services {
@@ -49,6 +57,10 @@ body {
 
 .partners-serv {
     margin-bottom: 50px;
+}
+
+.wrapper__page__inner {
+    background: #fff;
 }
 
 ul {
