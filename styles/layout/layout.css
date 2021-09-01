@@ -25,10 +25,6 @@ body {
     min-height: 137px;
 }
 
-.services {
-    background: #fff url(../../img/headline.png) center top no-repeat;
-}
-
 .container--services {
     margin: 0 auto;
     max-width: 1140px;
@@ -59,7 +55,7 @@ body {
     margin-bottom: 50px;
 }
 
-.wrapper__page__inner {
+.wrapper--page--inner {
     background: #fff;
 }
 
@@ -111,5 +107,17 @@ a {
     align-items: center;
     display: inline-block;
     cursor: pointer
+}
+
+.tag {
+    padding: 10px 15px;
+    background: #E7E7E7;
+    border-radius: 35px;
+    min-width: 143px;
+    font-size: 13px;
+    color: #303030;
+    line-height: 1.5;
+    text-align: center;
+    display: inline-block;
 }
 

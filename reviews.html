@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <div class="wrapper wrapper__page__inner">
+    <div class="wrapper wrapper--page--inner">
         <section class="section rewiews">
             <div class="container">
                 <header class="header">
                     <div class="header__col">
-                        <a href="/" class="logo">
+                        <a href="./index.html" class="logo">
                             <img src="./img/logo.png" alt="logo-pic">
                         </a>
                         <nav class="menu">
@@ -38,9 +38,9 @@
                         <address class="contacts">
                             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
                             <div class="contacts__workhours">График работы</div>
-                            <div class="address__description">
-                                <strong class="address__text">пн-вс: 09:00 - 20:00</strong>
-                                <p class="address__text--text">Обед: 14:00-14:30</p>
+                            <div class="work">
+                                <strong class="work__text work__text--weight--bold">пн-вс: 09:00 - 20:00</strong>
+                                <p class="work__text">Обед: 14:00-14:30</p>
                             </div>
                         </address>
                     </div>
@@ -217,13 +217,13 @@
         </section>
         <section class="forms">
             <div class="container">
-                <h2 class="form__title">Оставьте отзыв</h2>
+                <h2 class="forms__title">Оставьте отзыв</h2>
                 <form class="form" action="#" name="newform" method="POST">
                     <div class="form__inputs">
-                        <input type="text" class="input__name input__name-name" placeholder="ФИО">
-                        <input type="text" class="input__name" placeholder="Ссылка на профиль VK">
+                        <input type="text" class="form__input" placeholder="Ваше имя">
+                        <input type="text" class="form__input" placeholder="Ссылка на профиль VK">
                     </div>
-                    <textarea class="input__name form__input" placeholder="Напишите свой честный отзыв ;)"></textarea>
+                    <textarea class="form__input form__input--type--textarea" placeholder="Напишите свой честный отзыв ;)"></textarea>
                     <div class="form__controls">
                         <div class="form__controls-title">Какими услугами компании пользуетесь?</div>
                         <ul class="controls">
@@ -281,7 +281,7 @@
         <footer class="footer">
             <div class="container footer__container">
                 <div class="footer__col">
-                    <a href="/" class="logo">
+                    <a href="./index.html" class="logo">
                         <img src="./img/logo.png" alt="logo-pic">
                     </a>
                     <nav class="menu">

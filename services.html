@@ -12,88 +12,82 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <div class="wrapper services">
-        <header class="header container">
-                <div class="header__col">
-                    <a href="/" class="logo">
-                        <img src="./img/logo.png" alt="logo-pic">
-                    </a>
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a href="./index.html" class="menu__link">Главная</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="./services.html" class="menu__link">Услуги</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="./reviews.html" class="menu__link">Отзывы</a>
-                            </li>
-                        </ul>
-                    </nav>
+    <div class="wrapper wrapper--page--inner">
+        <section class="rewiews header--place--inner">
+            <div class="container">
+                <header class="header">
+                    <div class="header__col">
+                        <a href="./index.html" class="logo">
+                            <img src="./img/logo.png" alt="logo-pic">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="./index.html" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./services.html" class="menu__link">Услуги</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./reviews.html" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__col header__col--align--right">
+                        <address class="contacts">
+                            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                            <div class="contacts__workhours">График работы</div>
+                            <div class="work">
+                                <strong class="work__text work__text--weight--bold">пн-вс: 09:00 - 20:00</strong>
+                                <p class="work__text">Обед: 14:00-14:30</p>
+                            </div>
+                        </address>
+                    </div>
+                </header>
+                <h1 class="rewiews__title">Услуги</h1>
+                <div class="breadcrumbs">
+                    <ul class="breadcrumbs__rewiews">
+                        <li class="breadcrumbs__item">
+                            <a href="/" class="breadcrumbs__item-link">Главная</a>
+                        </li> 
+                        <li class="breadcrumbs__item">
+                            <span class="breadcrumbs__item-text">Услуги</span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="header__col header__col--align--right">
-                    <address class="contacts">
-                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                        <div class="contacts__workhours">График работы</div>
-                        <div class="address__description">
-                            <strong class="address__text">пн-вс: 09:00 - 20:00</strong>
-                            <p class="address__text--text">Обед: 14:00-14:30</p>
-                        </div>
-                    </address>
+            </div>
+        </section>
+        <main class="main-content container">
+            <div class="services services--margin--bottom">
+                <div class="services__img">
+                    <img src="./img/waterfall.jpg" alt="picture__services" class="services__img--icon">
                 </div>
-        </header>
-        <div class="main container">
-             <div class="route-services">
-                <h1 class="route__preview">Услуги</h1>
+                <div class="services__discription">
+                    <h3 class="services__title">Водопад Янг-бей</h3>
+                    <p class="services__text">
+                    Сайт рыбатекст поможет дизайнеру, верстальщику,
+                    вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                    При создании генератора мы использовали небезизвестный универсальный код речей.
+                    </p>
+                    <button class="services__button button">ПОДРОБНЕЕ</button>
+                </div>
             </div>
-            <div class="breadcrumb-services">
-                <ul class="breadcrumb">
-                    <li><a href="#">Главная</a></li> 
-                    <li class="active">Услуги</li>
-                </ul>
-            </div>
-            <div class="services__column features--serv">
-                <ul class="feature__services">
-                    <li class="services__item">
-                        <div class="services__img">
-                            <img src="./img/waterfall.jpg" alt="picture__services" class="services__img-icon">
-                        </div>
-                    </li>
-                    <li class="services__item services__item--align--right">
-                        <div class="services__discription">
-                            <h3 class="services__title">Водопад Янг-бей</h3>
-                            <p class="services__text">
-                                Сайт рыбатекст поможет дизайнеру, верстальщику,
-                                вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
-                                а начинающему оратору отточить навык публичных выступлений в домашних условиях.
-                                При создании генератора мы использовали небезизвестный универсальный код речей.
-                            </p>
-                            <button class="services__button button">ПОДРОБНЕЕ</button>
-                       </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="services__column features--services">
-                <ul class="feature__services">
-                    <li class="services__item">
-                        <div class="services__img">
-                            <img src="./img/monkeys.jpg" alt="picture__services" class="services__img-icon">
-                        </div>
-                    </li>
-                    <li class="services__item services__item--align--right">
-                        <div class="services__discription">
-                            <h3 class="services__title">Остров обезьян</h3>
-                            <p class="services__text">
-                                Сайт рыбатекст поможет дизайнеру, верстальщику,
-                                вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
-                                а начинающему оратору отточить навык публичных выступлений в домашних условиях.
-                                При создании генератора мы использовали небезизвестный универсальный код речей.
-                            </p>
-                            <button class="services__button button">ПОДРОБНЕЕ</button>
-                       </div>
-                    </li>
-                </ul>
+            <div class="services services--margin--paginator">
+                <div class="services__img">
+                    <img src="./img/monkeys.jpg" alt="picture__services" class="services__img--icon">
+                </div>
+                <div class="services__discription">
+                    <h3 class="services__title">Остров обезьян</h3>
+                    <p class="services__text">
+                    Сайт рыбатекст поможет дизайнеру, верстальщику,
+                    вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                    При создании генератора мы использовали небезизвестный универсальный код речей.
+                    </p>
+                    <button class="services__button button">ПОДРОБНЕЕ</button>
+                </div>
             </div>
             <div class="paginator paginator--serv">
                 <div class="paginator__display--serv">Страница 
@@ -125,56 +119,58 @@
                     </li>
                 </ul>
             </div>
-            <div class="partners partners-serv">
-                <h2 class="partner">Партнеры</h2>
-                <ul class="partners__list">
-                    <li class="partners__items">
-                        <a href="#" class="partner-logo">
-                            <img src="./img/partners/pobeda.png" alt="logo-pic">
-                        </a>
-                    </li>
-                    <li class="partners__items">
-                        <a href="#" class="partner-logo">
-                            <img src="./img/partners/s7.png" alt="logo-pic">
-                        </a>
-                    </li>
-                    <li class="partners__items">
-                        <a href="#" class="partner-logo">
-                            <img src="./img/partners/lets-fly.png" alt="logo-pic">
-                        </a>
-                    </li>
-                    <li class="partners__items">
-                        <a href="#" class="partner-logo">
-                            <img src="./img/partners/lufthansa.png" alt="logo-pic">
-                        </a>
-                    </li>
-                    <li class="partners__items">
-                        <a href="#" class="partner-logo">
-                            <img src="./img/partners/airbaltic.png" alt="logo-pic">
-                        </a>
-                    </li>
-                    <li class="partners__items">
-                        <a href="#" class="partner-logo">
-                            <img src="./img/partners/pegasus.png" alt="logo-pic">
-                        </a>
-                    </li>
-                    <li class="partners__items">
-                        <a href="#" class="partner-logo">
-                            <img src="./img/partners/ural.png" alt="logo-pic">
-                        </a>
-                    </li>
-                    <li class="partners__items">
-                        <a href="#" class="partner-logo">
-                            <img src="./img/partners/pegas.png" alt="logo-pic">
-                        </a>
-                    </li>
-                </ul>
+        </main>
+        <section class="partners partners-serv">
+            <div class="container">
+                <h2 class="partners__title">Партнеры</h2>
+            <ul class="partners__list">
+                <li class="partners__items">
+                    <a href="#" class="partners__logo">
+                        <img src="./img/partners/pobeda.png" alt="logo-pic" class="partners__logo--pic">
+                    </a>
+                </li>
+                <li class="partners__items">
+                    <a href="#" class="partners-logo">
+                        <img src="./img/partners/s7.png" alt="logo-pic" class="partners__logo--pic">
+                    </a>
+                </li>
+                <li class="partners__items">
+                    <a href="#" class="partners-logo">
+                        <img src="./img/partners/lets-fly.png" alt="logo-pic" class="partners__logo--pic">
+                    </a>
+                </li>
+                <li class="partners__items">
+                    <a href="#" class="partners-logo">
+                        <img src="./img/partners/lufthansa.png" alt="logo-pic" class="partners__logo--pic">
+                    </a>
+                </li>
+                <li class="partners__items">
+                    <a href="#" class="partners-logo">
+                        <img src="./img/partners/airbaltic.png" alt="logo-pic" class="partners__logo--pic">
+                    </a>
+                </li>
+                <li class="partners__items">
+                    <a href="#" class="partners-logo">
+                        <img src="./img/partners/pegasus.png" alt="logo-pic" class="partners__logo--pic">
+                    </a>
+                </li>
+                <li class="partners__items">
+                    <a href="#" class="partners-logo">
+                        <img src="./img/partners/ural.png" alt="logo-pic" class="partners__logo--pic">
+                    </a>
+                </li>
+                <li class="partners__items">
+                    <a href="#" class="partners-logo">
+                        <img src="./img/partners/pegas.png" alt="logo-pic" class="partners__logo--pic">
+                    </a>
+                </li>
+            </ul>
             </div>
-        </div>
+        </section>
         <footer class="footer">
             <div class="container footer__container">
                 <div class="footer__col">
-                    <a href="/" class="logo">
+                    <a href="./index.html" class="logo">
                         <img src="./img/logo.png" alt="logo-pic">
                     </a>
                     <nav class="menu">
